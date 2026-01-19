@@ -152,11 +152,3 @@ Hệ thống hiện tại **thiếu tự động hóa, thiếu minh bạch và k
 
 ---
 
-## 7. Checklist hoàn thành
-
-- [x] Xác định phạm vi dự án
-- [x] Thu thập yêu cầu chức năng
-- [x] Thu thập yêu cầu phi chức năng
-- [x] Thiết lập baseline yêu cầu
-- [ ] So sánh và tham chiếu benchmark
-- [ ] Hoàn thiện tài liệu Requirements
