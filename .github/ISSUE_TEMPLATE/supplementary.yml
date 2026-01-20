@@ -1,27 +1,34 @@
 name: Supplementary
-description: Additional information, references, or notes
-labels: ["type: supplementary"]
+description: Non-functional requirements (NFRs)
+labels: ["type: nfr"]
 body:
   - type: input
     attributes:
-      label: Title
-      placeholder: Enter title of supplementary info
+      label: Requirement Name
+      placeholder: Enter NFR title
   - type: textarea
     attributes:
       label: Description
-      description: Detailed information, notes, or context
-  - type: input
-    attributes:
-      label: References / Links
-      placeholder: URLs or document references
+      description: Detailed description of the non-functional requirement
   - type: dropdown
     attributes:
-      label: Importance
+      label: Category
+      options:
+        - Performance
+        - Security
+        - Usability
+        - Reliability
+        - Legal
+        - Maintainability
+        - Portability
+  - type: dropdown
+    attributes:
+      label: Priority
       options:
         - High
         - Medium
         - Low
   - type: input
     attributes:
-      label: Related to
-      placeholder: Use Case / Feature / Need
+      label: Derived from
+      placeholder: Feature #01
