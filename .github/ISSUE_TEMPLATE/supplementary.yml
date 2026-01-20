@@ -1,0 +1,27 @@
+name: Supplementary
+description: Additional information, references, or notes
+labels: ["type: supplementary"]
+body:
+  - type: input
+    attributes:
+      label: Title
+      placeholder: Enter title of supplementary info
+  - type: textarea
+    attributes:
+      label: Description
+      description: Detailed information, notes, or context
+  - type: input
+    attributes:
+      label: References / Links
+      placeholder: URLs or document references
+  - type: dropdown
+    attributes:
+      label: Importance
+      options:
+        - High
+        - Medium
+        - Low
+  - type: input
+    attributes:
+      label: Related to
+      placeholder: Use Case / Feature / Need
