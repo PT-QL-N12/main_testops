@@ -1,0 +1,23 @@
+name: Need
+description: Stakeholder customer need
+labels: ["type: need"]
+body:
+  - type: input
+    attributes:
+      label: Stakeholder
+      placeholder: Customer
+  - type: textarea
+    attributes:
+      label: Description
+      description: Raw, original request from stakeholder
+  - type: dropdown
+    attributes:
+      label: Stakeholder's Priority
+      options:
+        - High
+        - Medium
+        - Low
+  - type: input
+    attributes:
+      label: Derived from
+      placeholder: EPIC #01
