@@ -1,0 +1,23 @@
+name: Product feature
+description: product-level features
+labels: ["type: feature"]
+body:
+  - type: input
+    attributes:
+      label: Feature Name
+      placeholder: Enter the feature title
+  - type: textarea
+    attributes:
+      label: Description
+      description: Brief description of the feature
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+  - type: input
+    attributes:
+      label: Derived from
+      placeholder: Need #01
