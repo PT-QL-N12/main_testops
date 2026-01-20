@@ -1,0 +1,32 @@
+name: Use Case
+description: User-level scenarios or interactions
+labels: ["type: usecase"]
+body:
+  - type: input
+    attributes:
+      label: Use Case Name
+      placeholder: Enter the use case title
+  - type: textarea
+    attributes:
+      label: Description
+      description: Brief summary of the use case scenario
+  - type: input
+    attributes:
+      label: Actor
+      placeholder: User or system actor
+  - type: textarea
+    attributes:
+      label: Preconditions
+      description: Conditions that must be met before the use case starts
+  - type: textarea
+    attributes:
+      label: Steps
+      description: Step-by-step flow of the use case
+  - type: textarea
+    attributes:
+      label: Postconditions
+      description: Conditions that must be true after the use case completes
+  - type: input
+    attributes:
+      label: Derived from
+      placeholder: Feature #01
