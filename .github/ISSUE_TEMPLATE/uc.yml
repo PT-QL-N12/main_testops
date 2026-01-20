@@ -1,6 +1,6 @@
 name: Use Case
-description: User-level scenarios or interactions
-labels: ["type: usecase"]
+description: User-level scenarios or interactions for the e-library system
+labels: ["type: UC"]
 body:
   - type: input
     attributes:
@@ -13,11 +13,11 @@ body:
   - type: input
     attributes:
       label: Actor
-      placeholder: User or system actor
+      placeholder: User or system actor (e.g., Student, Librarian)
   - type: textarea
     attributes:
       label: Preconditions
-      description: Conditions that must be met before the use case starts
+      description: Conditions that must be met before this use case starts
   - type: textarea
     attributes:
       label: Steps
@@ -25,8 +25,8 @@ body:
   - type: textarea
     attributes:
       label: Postconditions
-      description: Conditions that must be true after the use case completes
+      description: Expected outcome or system state after the use case completes
   - type: input
     attributes:
-      label: Derived from
+      label: Derived from Feature
       placeholder: Feature #01
